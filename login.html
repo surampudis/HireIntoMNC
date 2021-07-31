@@ -60,19 +60,19 @@
                 <hr>
 
                 <label for="email"><b>Email</b></label>
-                <input type="text" placeholder="Enter Email" name="email" required>
+                <input type="text" placeholder="Enter Email" id="email" required>
 
                 <label for="psw"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
+                <input type="password" placeholder="Enter Password" id="psw" required>
 
 
                 <label>
-                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                    <input type="checkbox" checked="checked" id="remember" style="margin-bottom:15px"> Remember me
                 </label>
 
                 <div class="clearfix">
-                    <button type="button" class="cancelbtn">Cancel</button>
-                    <button type="submit" onclick="Window.location.href =index.html" class="signupbtn">Sign In</button>
+                    <button type="button" id="cancel" onclick="window.location='index.html'"  class="cancelbtn">Cancel</button>
+                    <button type="submit" onclick="validate()"  class="signupbtn">Sign In</button>
                 </div>
 
 
@@ -82,7 +82,7 @@
         <!-- testmonials-->
 
         </main>
-
+        <script src="js/src.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
             crossorigin="anonymous"></script>
