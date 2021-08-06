@@ -4,6 +4,7 @@
   padding:0;
   font-family: Didot, serif;
   box-sizing: border-box;
+  font-size: 10px;
 
 }
 body{
@@ -19,8 +20,8 @@ nav{
 }
 nav ul li{
   display: inline-block;
-  padding: 25px 25px;
-  font-size: 25px;
+  padding: 10px 10px;
+  font-size: 10px;
 }
 nav ul li a{
   text-decoration: none;
@@ -39,29 +40,27 @@ nav ul li a:hover{
 
 }
 .info h2{
-    padding-top: 25%;
-    padding-left: 50px;
+    padding-top: 50%;
     padding-right: 50%;
-    font-size: 45px;
+    font-size: 12px;
     color: white;
     font-family: Didot, serif;
     font-weight: bold;
     
 }
 .info p{
-  padding-top: 20px;
-  padding-left: 70px;
-  color: white;
-  font-size: 25px;
-  padding-right: 70%;
-  font-weight: bold;
-  border:1px;
+    padding: 0%;
+    padding-right: 10%;
+    font-size: 10px;
+    color: white;
+    font-family: Didot, serif;
+    font-weight: normal;
 }
 
 .data h2{
-  padding : 40px 25px;
-  position: relative;
-  font-size: 45px;
+  
+  position: relativec;
+  font-size: 12px;
   color: black;
   font-family: Didot, serif;
   font-weight: bold;
@@ -69,21 +68,20 @@ nav ul li a:hover{
   
 }
 .data p{
-  padding : 25px 500px;
+  padding: 0px 15%;
   position: relative;
-  font-size: 35px;
+  font-size: 10px;
   font-family: Didot, serif;
   color: black;
- 
   font-weight: normal;
   text-align: center;
   
 }
 
 .leftdata h2{
-  padding : 40px 25px;
+  padding : 0% 25%;
   position: relative;
-  font-size: 45px;
+  font-size: 12px;
   color: black;
   font-family: Didot, serif;
   font-weight: bold;
@@ -92,9 +90,9 @@ nav ul li a:hover{
 }
 
 .leftdata p{
-  padding : 25% 25%;
+
   color: black;
-  font-size: 25px;
+  font-size: 10px;
   padding-right: 70%;
   font-weight: bold;
   border:1px;
@@ -103,18 +101,18 @@ nav ul li a:hover{
 
 .button {
   display: block;
-  width: 180px;
+  width: 100px;
   background: #4E9CAF;
   padding: 7px 20px 8px 20px;
   text-align: center;
   border-radius: 10px;
   color: white;
-  font-weight: bold;
-  line-height: 25px;
+  font-weight: normal;
+  line-height: 10px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 10px;
   border-radius: 50px;
-  padding: 25px;
+  padding: 10px;
   margin: 0 auto;
 }
 
@@ -136,14 +134,20 @@ nav ul li a:hover{
 }
 
 .coloumn h2{
-  padding : 40px 25px;
+  padding : 10% 15%;
   position: relative;
-  font-size: 45px;
+  font-size: 12px;
   color: black;
   font-family: Didot, serif;
   font-weight: bold;
   text-align: left;
   
+}
+.coloumn iframe{
+  display: block;
+  height: 240px;
+  width: 180px;
+  padding-right: 10px;
 }
 
 .coloumn p{
@@ -151,7 +155,7 @@ nav ul li a:hover{
   padding-left: 30px;
   padding-right: 0px;
   color: black;
-  font-size: 25px;
+  font-size: 10px;
   padding-right: 20%;
   font-weight: normal;
   font-family: Didot, serif;
@@ -162,19 +166,19 @@ nav ul li a:hover{
   background-image: url(../img/mnc3.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 850px;
+  height: 350px;
 
 }
 
 #Approach{
 
-  height: 700px;
+  height:  150px;
   
 }
 #address{
-
-  height: 510px;
   
+  height:  250px;
+  width: 360px;
   background: rgb(65,123,134);
   background: radial-gradient(circle, rgba(65,123,134,1) 7%, rgba(70,223,252,1) 31%, rgba(66,124,135,1) 100%);
 }
@@ -202,37 +206,265 @@ nav ul li a:hover{
    height: 200px;
     
     }
-
-    
-.coloumnbottom {
-  float: left;
-  width: 50%;
-  padding: 40px;
-  
-}
-
-.coloumnbottom h2,p{
- 
-  position: relative;
-  font-size: 13px;
+.coloumnbottom{
+  padding: 5% 5%;
   color: white;
-
-  
+  font-size: 8px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.coloumnbottom {
+@media only screen and (min-width:768px){
+  *{
+    font-size: 25px;
+  } 
+  #home{
  
-  position: relative;
-  font-size: 13px;
-  color: white;
-  text-align: center;
-
+    height: 500px;
+  
+  }
+  
+.info h2{
+ 
+  font-size: 25px;
+  
   
 }
-.coloumnbottom  nav ul li {
-  display: table-cell;
-  position: relative;
+.info p{
+  
+  font-size: 20px;
+  
+}
+#Approach{
+
+  height:  250px;
+  
+}
+ 
+.data h2{
+  
+ padding: 10px 10px;
+  font-size: 25px;
+ 
+  
+}
+.data p{
+  font-size: 20px; 
+}
+
+.button {
+   
+  width: 180px;  
+  border-radius: 1p8x; 
   font-size: 18px;
-  color: white;
-  text-align: center;
+
+}
+#address{
+  
+  height:  400px;
+  width: 768px;
+  background: rgb(65,123,134);
+  background: radial-gradient(circle, rgba(65,123,134,1) 7%, rgba(70,223,252,1) 31%, rgba(66,124,135,1) 100%);
+}
+
+
+
+.coloumn h2{
+  padding : 8% 2%;
+ 
+  font-size: 25px;
+  color: black;
+  
+  
+}
+.coloumn iframe{
+  display: block;
+  height: 385px;
+  width: 380px;
+  padding-left: 5%;
+}
+
+.coloumn p{
+  
+  font-size: 20px;
+ 
+}
+
+.coloumnbottom nav ul li a,h2,p{
+  font-size: 13px;
+}
+}
+
+
+@media only screen and (min-width:1024px){
+  *{
+    font-size: 25px;
+  } 
+  #home{
+ 
+    height: 500px;
+    
+  
+  }
+  
+.info h2{
+  padding-top: 30%;
+    padding-right: 30%;
+  font-size: 25px;
+  
+  
+}
+.info p{
+  
+  font-size: 20px;
+  
+}
+#Approach{
+
+  height:  250px;
+  
+}
+ 
+.data h2{
+  
+ padding: 10px 10px;
+  font-size: 25px;
+ 
+  
+}
+.data p{
+  font-size: 20px; 
+}
+
+.button {
+   
+  width: 180px;  
+  border-radius: 1p8x; 
+  font-size: 18px;
+
+}
+#address{
+  
+  height:  400px;
+  width: 1024px;
+  background: rgb(65,123,134);
+  background: radial-gradient(circle, rgba(65,123,134,1) 7%, rgba(70,223,252,1) 31%, rgba(66,124,135,1) 100%);
+}
+
+.coloumn h2{
+  padding : 8% 2%;
+ 
+  font-size: 25px;
+  color: black;
+  
+  
+}
+.coloumn iframe{
+  display: block;
+  height: 385px;
+  width: 500px;
+  padding-left: 5%;
+}
+
+.coloumn p{
+  
+  font-size: 20px;
+ 
+}
+
+.coloumnbottom nav ul li a,h2,p{
+  font-size: 13px;
+}
+}
+
+
+@media only screen and (min-width:1250px){
+  *{
+    font-size: 25px;
+  } 
+  #home{
+ 
+    height: 850px;
+    
+  }
+  
+.info h2{
+  padding-top: 30%;
+    padding-right: 30%;
+  font-size: 45px;
+  
+  
+}
+.info p{
+  
+  font-size: 35px;
+  
+}
+#Approach{
+
+  height:  400px;
+  
+}
+ 
+.data h2{
+  padding:2% 30%;
+  font-size: 45px;
+ 
+  
+}
+.data p{
+  padding:0% 30%;
+  font-size: 25px; 
+}
+
+.button {
+   
+  width: 180px;  
+  border-radius: 18x; 
+  font-size: 18px;
+
+}
+#address{
+  height:  450px;
+  width: 100%;
+  background: rgb(65,123,134);
+  background: radial-gradient(circle, rgba(65,123,134,1) 7%, rgba(70,223,252,1) 31%, rgba(66,124,135,1) 100%);
+}
+
+.coloumn h2{
+  padding-left: 10%;
+ 
+  font-size: 25px;
+  color: black;
+  
+  
+}
+.coloumn iframe{
+  display: block;
+  height: 425px;
+  width: 600px;
+  padding-left: 5%;
+}
+
+.coloumn p{
+  padding-left: 10%;
+  font-size: 20px;
+ 
+}
+
+#bottom{
+  background: #2b2b2b;
+ height: 300px;
+  
+  }
+.coloumnbottom nav ul li a,h2,p{
+  font-size: 18px;
+}
+.coloumnbottom nav ul li{
+  font-size: 18px;
+}
+#about {
+  
+height: 830px;
+}
+
 }
