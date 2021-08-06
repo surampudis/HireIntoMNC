@@ -144,7 +144,10 @@ nav ul li a:hover{
   
 }
 .coloumn iframe{
-  display: none;
+  display: block;
+  height: 240px;
+  width: 180px;
+  padding-right: 10px;
 }
 
 .coloumn p{
