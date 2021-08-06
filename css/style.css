@@ -104,7 +104,6 @@ nav ul li a:hover{
 .button {
   display: block;
   width: 180px;
-
   background: #4E9CAF;
   padding: 7px 20px 8px 20px;
   text-align: center;
@@ -167,6 +166,19 @@ nav ul li a:hover{
 
 }
 
+#Approach{
+
+  height: 700px;
+  
+}
+#address{
+
+  height: 510px;
+  
+  background: rgb(65,123,134);
+  background: radial-gradient(circle, rgba(65,123,134,1) 7%, rgba(70,223,252,1) 31%, rgba(66,124,135,1) 100%);
+}
+
 #about {
   
   background-image: url(../img/about.jpg); 
@@ -185,3 +197,42 @@ nav ul li a:hover{
 
 }
 
+#bottom{
+    background: #2b2b2b;
+   height: 200px;
+    
+    }
+
+    
+.coloumnbottom {
+  float: left;
+  width: 50%;
+  padding: 40px;
+  
+}
+
+.coloumnbottom h2,p{
+ 
+  position: relative;
+  font-size: 13px;
+  color: white;
+
+  
+}
+
+.coloumnbottom {
+ 
+  position: relative;
+  font-size: 13px;
+  color: white;
+  text-align: center;
+
+  
+}
+.coloumnbottom  nav ul li {
+  display: table-cell;
+  position: relative;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
