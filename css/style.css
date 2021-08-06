@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav{
+ float: right;
+ 
+}
+nav ul li{
+  display: inline-block;
+  padding: 25px 25px;
+  font-size: 25px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: aliceblue;
+
+}
+.info h2{
+    padding-top: 25%;
+    padding-left: 50px;
+    padding-right: 50%;
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+    
+}
+.info p{
+  padding-left: 70px;
+  color: white;
+  font-size: 25px;
+  padding-right: 70%;
+  font-weight: bold;
+  border:1px;
+}
+
+
+#home{
+  background-image: url(../img/mnc3.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+#about {
+  
+  background-image: url(../img/about.jpg); 
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color:black;
+  background-blend-mode: lighten;
+}
+
+#services{
+  background-image: url(../img/services.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color:black;
+  background-blend-mode: lighten;
+
+}
