@@ -459,4 +459,7 @@ nav ul li a:hover{
 .coloumnbottom nav ul li a,h2,p{
   font-size: 18px;
 }
+.coloumnbottom nav ul li{
+  font-size: 18px;
+}
 }
