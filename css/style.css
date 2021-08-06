@@ -27,6 +27,17 @@ nav ul li a{
   color: aliceblue;
 
 }
+nav ul li a:hover{
+  
+  border-bottom:none;
+  color: #4E9CAF;
+  display: block;
+  width:121px;
+  height: 35px;
+  line-height: 35px;
+
+
+}
 .info h2{
     padding-top: 25%;
     padding-left: 50px;
