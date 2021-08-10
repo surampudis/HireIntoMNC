@@ -7,9 +7,16 @@
   font-size: 10px;
 
 }
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  align-items: center;
+  color: white;
+}
+
 body{
-  background: rgb(70,223,252);
-  background: radial-gradient(circle, rgba(70,223,252,0.7610241820768137) 5%, rgba(65,123,134,1) 34%);
+   background-image: url(../img/bg.png);
+   
 }
 html{
   scroll-behavior: smooth;
@@ -17,6 +24,18 @@ html{
 nav{
  float: right;
  
+}
+ul{
+  float: right;
+  text-align: right;
+}
+li{
+  display: list-item;  color: white; list-style:none;
+  font-size: 10px;
+}
+li img{
+  width: 50px;
+  height: 50px;
 }
 nav ul li{
   display: inline-block;
@@ -33,14 +52,12 @@ nav ul li a:hover{
   border-bottom:none;
   color: #4E9CAF;
   display: block;
-  width:121px;
-  height: 35px;
-  line-height: 35px;
+ 
 
 
 }
 .info h2{
-    padding-top: 50%;
+    padding-top: 20%;
     padding-right: 50%;
     font-size: 12px;
     color: white;
@@ -58,10 +75,10 @@ nav ul li a:hover{
 }
 
 .data h2{
-  
-  position: relativec;
+  padding: 2%;
+  position: relative;
   font-size: 12px;
-  color: black;
+  color: white;
   font-family: Didot, serif;
   font-weight: bold;
   text-align: center;
@@ -72,7 +89,7 @@ nav ul li a:hover{
   position: relative;
   font-size: 10px;
   font-family: Didot, serif;
-  color: black;
+  color: white;
   font-weight: normal;
   text-align: center;
   
@@ -82,7 +99,7 @@ nav ul li a:hover{
   padding : 0% 25%;
   position: relative;
   font-size: 12px;
-  color: black;
+  color: white;
   font-family: Didot, serif;
   font-weight: bold;
   text-align: left;
@@ -91,7 +108,7 @@ nav ul li a:hover{
 
 .leftdata p{
 
-  color: black;
+  color: white;
   font-size: 10px;
   padding-right: 70%;
   font-weight: bold;
@@ -137,24 +154,29 @@ nav ul li a:hover{
   padding : 10% 15%;
   position: relative;
   font-size: 12px;
-  color: black;
+  color: white;
   font-family: Didot, serif;
   font-weight: bold;
   text-align: left;
   
 }
 .coloumn iframe{
-  display: block;
+  display: none;
   height: 240px;
   width: 180px;
   padding-right: 10px;
 }
-
+.coloumn li{
+  
+  display: list-item;
+  list-style: square;
+  padding: 7px;
+}
 .coloumn p{
   padding-top: 20px;
   padding-left: 30px;
   padding-right: 0px;
-  color: black;
+  color: white;
   font-size: 10px;
   padding-right: 20%;
   font-weight: normal;
@@ -163,7 +185,7 @@ nav ul li a:hover{
 }
 
 #home{
-  background-image: url(../img/mnc3.jpg);
+  background-image: url(../img/black.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   height: 350px;
@@ -175,13 +197,15 @@ nav ul li a:hover{
   height:  150px;
   
 }
+#table {
+  height: 500px;
+}
+
 #address{
   
   height:  250px;
   width: 360px;
-  background: rgb(65,123,134);
-  background: radial-gradient(circle, rgba(65,123,134,1) 7%, rgba(70,223,252,1) 31%, rgba(66,124,135,1) 100%);
-}
+  }
 
 #about {
   
@@ -193,7 +217,7 @@ nav ul li a:hover{
 }
 
 #services{
-  background-image: url(../img/services.jpg);
+  background-image: url(../img/serv1.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-color:black;
@@ -202,8 +226,10 @@ nav ul li a:hover{
 }
 
 #bottom{
+  position: relative;
     background: #2b2b2b;
-   height: 200px;
+    width: 100%;
+    height: 150px;
     
     }
 .coloumnbottom{
@@ -213,10 +239,98 @@ nav ul li a:hover{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#fourthTable table {
+  
+  border: none;
+  margin: 0px;
+  padding: 10px;
+  width: 100%;
+  /* box-shadow: 9px 9px 7px grey; */
+ 
+  }
+  #fourthTable tr {
+  background: linear-gradient(to right,black,grey);
+  transform: skewX(10deg);
+  }
+  #fourthTable td {
+  color: white;
+  padding: 13px 7px 13px 7px;
+  transform: skewX(-10deg);
+  font-size: 8px;
+  }
+  #fourthTable th {
+  color: #FFE16B;
+  font-size: 12px;
+  transform: skewX(-10deg);
+  }
+
+
+ @media only screen and (min-width:411px){
+
+  
+
+  #fourthTable table {
+  
+    padding: 2%;
+    width: 100%;
+    /* box-shadow: 9px 9px 7px grey; */
+   
+    }
+   
+    #fourthTable td {
+    
+    font-size: 8px;
+    }
+    #fourthTable th {
+
+    font-size: 10px;
+
+    }
+  
+
+  li img{
+    width: 50px;
+    height: 50px;
+  }
+ }
+
 @media only screen and (min-width:768px){
   *{
     font-size: 25px;
   } 
+
+  
+  #fourthTable table {
+  
+    padding: 60px;
+    width: 100%;
+   
+    }
+   
+    #fourthTable td {
+    
+    font-size: 15px;
+    }
+    #fourthTable th {
+
+    font-size: 17px;
+
+    }
+  
+
+  li img{
+    width: 90px;
+    height: 90px;
+  }
+  .coloumn li{
+
+    padding: 1px;
+    font-size: smaller;
+  }
+  li{
+   
+    font-size: 8px;
+  }
   #home{
  
     height: 500px;
@@ -262,8 +376,7 @@ nav ul li a:hover{
   
   height:  400px;
   width: 768px;
-  background: rgb(65,123,134);
-  background: radial-gradient(circle, rgba(65,123,134,1) 7%, rgba(70,223,252,1) 31%, rgba(66,124,135,1) 100%);
+ 
 }
 
 
@@ -272,15 +385,21 @@ nav ul li a:hover{
   padding : 8% 2%;
  
   font-size: 25px;
-  color: black;
+  color: white;
   
   
 }
 .coloumn iframe{
-  display: block;
+  display: none;
   height: 385px;
   width: 380px;
   padding-left: 5%;
+}
+
+.coloumn p li{
+  
+  font-size: 20px;
+ 
 }
 
 .coloumn p{
@@ -299,6 +418,51 @@ nav ul li a:hover{
   *{
     font-size: 25px;
   } 
+  
+  #bottom{
+    height: 200px;
+  }
+  .coloumnbottom nav ul li a,h2,p{
+    font-size: 15px;
+  }
+
+  .coloumnbottom nav ul li{
+    font-size: 15px;
+  };
+  
+  #table {
+    height: 700px;
+  }
+  #fourthTable table {
+  
+    padding: 20px;
+    width: 100%;
+   
+    }
+   
+    #fourthTable td {
+    
+    font-size: 18px;
+    }
+    #fourthTable th {
+
+    font-size: 20px;
+
+    }
+  
+
+  li img{
+    width: 120px;
+    height: 120px;
+  }
+  .coloumn li{
+
+    padding: 2px;
+  }
+  li{
+    display: list-item;  color: white; list-style:none;
+    font-size: 15px;
+  }
   #home{
  
     height: 500px;
@@ -346,23 +510,27 @@ nav ul li a:hover{
   
   height:  400px;
   width: 1024px;
-  background: rgb(65,123,134);
-  background: radial-gradient(circle, rgba(65,123,134,1) 7%, rgba(70,223,252,1) 31%, rgba(66,124,135,1) 100%);
+ 
 }
 
 .coloumn h2{
   padding : 8% 2%;
  
   font-size: 25px;
-  color: black;
+  color: white;
   
   
 }
 .coloumn iframe{
-  display: block;
+  display: none;
   height: 385px;
   width: 500px;
   padding-left: 5%;
+}
+.coloumn p li{
+  
+  font-size: 20px;
+ 
 }
 
 .coloumn p{
@@ -371,9 +539,7 @@ nav ul li a:hover{
  
 }
 
-.coloumnbottom nav ul li a,h2,p{
-  font-size: 13px;
-}
+
 }
 
 
@@ -381,6 +547,38 @@ nav ul li a:hover{
   *{
     font-size: 25px;
   } 
+
+
+  #fourthTable table {
+  
+    padding: 60px;
+    width: 100%;
+   
+    }
+   
+    #fourthTable td {
+    
+    font-size: 15px;
+    }
+    #fourthTable th {
+
+    font-size: 17px;
+
+    }
+  
+
+  li img{
+    width: 150px;
+    height: 150px;
+  }
+  .coloumn li{
+
+    padding: 18px;
+  }
+  li{
+    display: list-item;  color: white; list-style:none;
+    font-size: 18px;
+  }
   #home{
  
     height: 850px;
@@ -388,15 +586,15 @@ nav ul li a:hover{
   }
   
 .info h2{
-  padding-top: 30%;
+  padding-top: 25%;
     padding-right: 30%;
-  font-size: 45px;
+  font-size: 40px;
   
   
 }
 .info p{
   
-  font-size: 35px;
+  font-size: 30px;
   
 }
 #Approach{
@@ -426,25 +624,29 @@ nav ul li a:hover{
 #address{
   height:  450px;
   width: 100%;
-  background: rgb(65,123,134);
-  background: radial-gradient(circle, rgba(65,123,134,1) 7%, rgba(70,223,252,1) 31%, rgba(66,124,135,1) 100%);
+ 
 }
 
 .coloumn h2{
   padding-left: 10%;
  
   font-size: 25px;
-  color: black;
+
   
   
 }
 .coloumn iframe{
-  display: block;
+  display: none;
   height: 425px;
   width: 600px;
   padding-left: 5%;
 }
 
+.coloumn p li{
+  padding-left: 10%;
+  font-size: 20px;
+ 
+}
 .coloumn p{
   padding-left: 10%;
   font-size: 20px;
@@ -452,6 +654,7 @@ nav ul li a:hover{
 }
 
 #bottom{
+  position: relative;
   background: #2b2b2b;
  height: 300px;
   
